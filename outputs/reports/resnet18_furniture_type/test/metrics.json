@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.5786350148367952,
+  "balanced_accuracy": 0.7301528949750294,
+  "roc_auc_macro_ovr": 0.9601863538412327,
+  "pr_auc_macro": 0.7364038050971488,
+  "num_samples": 337
+}

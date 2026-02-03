@@ -4,10 +4,14 @@ __pycache__/
 .venv/
 .git/
 
-# Data and large artifacts
+# Data (keep excluded)
 /data/
-/models/
+
+# Outputs (exclude all except reports)
 /outputs/
+!/outputs/
+!/outputs/reports/
+!/outputs/reports/**
 
 # OS
 .DS_Store

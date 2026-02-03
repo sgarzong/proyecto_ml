@@ -1,0 +1,42 @@
+{
+  "architecture": "mobilenet_v3_small",
+  "image_size": 256,
+  "normalize_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalize_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "classes": [
+    "BIOMBO",
+    "CABECERA",
+    "CHECK_OUT",
+    "CHECK_OUT_SIMPLE",
+    "CHECK_OUT__LATERAL_DOBLE",
+    "CHICLERA",
+    "FINAL_DE_GONDOLA",
+    "GANCHERA",
+    "ISLA",
+    "LATERAL_DE_CABECERA",
+    "RUMA"
+  ],
+  "class_to_idx": {
+    "BIOMBO": 0,
+    "CABECERA": 1,
+    "CHECK_OUT": 2,
+    "CHECK_OUT_SIMPLE": 3,
+    "CHECK_OUT__LATERAL_DOBLE": 4,
+    "CHICLERA": 5,
+    "FINAL_DE_GONDOLA": 6,
+    "GANCHERA": 7,
+    "ISLA": 8,
+    "LATERAL_DE_CABECERA": 9,
+    "RUMA": 10
+  },
+  "weights_path": "models\\mobilenet_v3_small_furniture_type\\weights.pt",
+  "pytorch_version": "2.9.0+cpu"
+}

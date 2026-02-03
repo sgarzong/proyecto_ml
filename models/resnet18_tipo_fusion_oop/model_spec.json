@@ -1,0 +1,32 @@
+{
+  "architecture": "resnet18",
+  "image_size": 256,
+  "normalize_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalize_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "classes": [
+    "CABECERA_FINAL",
+    "CHECK",
+    "CHICLERA",
+    "GANCHERA",
+    "ISLA_RUMA_BIOMBO",
+    "LATERAL"
+  ],
+  "class_to_idx": {
+    "CABECERA_FINAL": 0,
+    "CHECK": 1,
+    "CHICLERA": 2,
+    "GANCHERA": 3,
+    "ISLA_RUMA_BIOMBO": 4,
+    "LATERAL": 5
+  },
+  "weights_path": "models\\resnet18_tipo_fusion_oop\\weights.pt",
+  "pytorch_version": "2.9.0+cpu"
+}
