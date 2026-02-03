@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.git/
+
+# Data and large artifacts
+/data/
+/models/
+/outputs/
+
+# OS
+.DS_Store
+Thumbs.db
